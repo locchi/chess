@@ -256,6 +256,12 @@
 					return letra;
 				}
 
+				function adjacent_positions(position){
+					var vertical = position.substr(0);
+					var horizontal = position.substr(substr(1));
+					
+				}
+
 				function limpar_marcação(){
 					var childs = document.getElementsByClassName("panel")[0].children;
 					for(i=0; i<childs.length; i++){
